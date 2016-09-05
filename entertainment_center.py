@@ -10,29 +10,17 @@ with open("movies.json") as json_data:
     json_data.close()
     #pprint(d)
 
-# build up the movie array
-movie0 = media.Movie(d["movies"][0]["title"],
-                         d["movies"][0]["storyline"],
-                         d["movies"][0]["poster"],
-                         d["movies"][0]["trailer"]
-                         )
-movie1 = media.Movie(d["movies"][1]["title"],
-                         d["movies"][1]["storyline"],
-                         d["movies"][1]["poster"],
-                         d["movies"][1]["trailer"]
-                         )
-movie2 = media.Movie(d["movies"][2]["title"],
-                         d["movies"][2]["storyline"],
-                         d["movies"][2]["poster"],
-                         d["movies"][2]["trailer"]
-                         )
-movie3 = media.Movie(d["movies"][3]["title"],
-                         d["movies"][3]["storyline"],
-                         d["movies"][3]["poster"],
-                         d["movies"][3]["trailer"]
-                         )
 
-movies = [movie0, movie1, movie2, movie3]
+movies = []
+for movie_data in d["movies"]:
+    #create instance of Movie class for each json object
+    movie = media.Movie(movie_data["title"],
+                        movie_data["storyline"],
+                        movie_data["poster"],
+                        movie_data["trailer"])
+    #add new movie to list
+    movies.append(movie)
+
 
 # the simple bootstrap wrapper that we are using to generate the web page
 fresh_tomatoes.open_movies_page(movies)
