@@ -1,0 +1,24 @@
+{
+	"movies": [{
+			"title": "Casablanca",
+			"storyline": "Bogart, Bergman, Nazis",
+			"poster": "https://upload.wikimedia.org/wikipedia/commons/b/b3/CasablancaPoster-Gold.jpg",
+			"trailer": "https://www.youtube.com/watch?v=a2MnKebNlRo"
+		},{
+      "title": "Star Wars",
+      "storyline": "A Hero's Journey",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg",
+      "trailer": "https://www.youtube.com/watch?v=vZ734NWnAHA"
+    },{
+  			"title": "2001: A Space Odyssey",
+  			"storyline": "The evolution of humankind",
+  			"poster": "https://upload.wikimedia.org/wikipedia/en/a/a7/2001_A_Space_Odyssey_%281968%29_theatrical_poster_variant.jpg",
+  			"trailer": "https://www.youtube.com/watch?v=Z2UWOeBcsJI"
+  		},{
+        "title": "The Godfather",
+        "storyline": "The Mafia in New York",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+        "trailer": "https://www.youtube.com/watch?v=sY1S34973zA"
+      }
+	]
+}
