@@ -5,7 +5,7 @@
 
 To use this code clone the repo, and edit the movies.json file with the movies
 you want to show in dynamic website
-*
+
 * Clone the repo: `git clone https://github.com/talhafbasit/python-bootstrap-exp.git`
 * You must have Pyton 2.7+ in order to run
 * run entertainment_center.py and it will create fresh_tomatoes.html which will
